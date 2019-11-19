@@ -30,7 +30,7 @@ printf("The number is odd");
 Enter a number: 5
 The number is odd
 ```
-## 2.
+## 2.Marks
 ```
 #include <stdio.h>                                         int main ()
 {
@@ -47,7 +47,10 @@ printf("\nName: %s,\nmarks=%d\nname,marks");               }
 return 0;
 }
 ```
+**OUTPUT **
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTEwOTAwLDUyOTcwOTQwMSwtMjA4OD
-c0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE5OTIxMzkxMjEsNTI5NzA5NDAxLC0yMD
+g4NzQ2NjEyLDg2MDY5MjUzNl19
 -->
