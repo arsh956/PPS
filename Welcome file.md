@@ -140,7 +140,7 @@ enter first number: 5                                      enter second number: 
 6*10=60
 ```
 ## 5. To convert temperature from Fahrenheit to celcius
-
+```
 #include<stdio.h>
 int main()
 {
@@ -151,9 +151,11 @@ printf("temperature in celcius is %f",c);
 }
 ```
 **Output**
-``
+```
+enter the temperature in fahrenheit: 53
+temperature in celcius is 11.666667
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NDExMzIzLDExMjQyNzE5OTYsLTg2NT
-gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
-Miw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTczNTM2ODcsMTEyNDI3MTk5NiwtOD
+Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
+NjEyLDg2MDY5MjUzNl19
 -->
