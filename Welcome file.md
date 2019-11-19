@@ -212,10 +212,24 @@ printf("%d is not a prime number",n);
 enter a number11
 11 number is prime
 ```
-## 8.
+## 8. Number is negative or positive
+```
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter a number: ");
+scanf("%d",&n);
+if(n<0)
+printf("The number is negative");
+else
+printf("The number is positive");
+}
+```
+**Output**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTI3ODA1NCwxMTI0MjcxOTk2LC04Nj
-U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
-MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbLTE5MjUyMzU0MzYsMTEyNDI3MTk5NiwtOD
+Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
+NjEyLDg2MDY5MjUzNl19
 -->
