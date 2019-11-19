@@ -274,8 +274,18 @@ case 2:
 printf(" Enter two numbers: ");
 scanf("%d %d",&a,&b);
 c = a-b;
+printf(" \nThe subtraction of %d and %d is %d",a,b,c);     break;
+case 3:
+printf("Enter two numbers: ");
+scanf("%d %d",&a,&b);
+c = a*b;
+printf("\nThe multiplication of %d and %d is %d",a,b,c);
+break;
+case 4:
+printf("Enter two numbers: ");
+scanf("%d %d",&a,&b);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA0NjA3OTUsMTEzMDkwNzEyMyw0MD
-YwNzM2MzUsMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3
-NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbMTkyNTExMDc4LDExMzA5MDcxMjMsNDA2MD
+czNjM1LDExMjQyNzE5OTYsLTg2NTgzNTAwOSwxMDY0OTM1Nzcw
+LDUyOTcwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
 -->
