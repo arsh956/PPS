@@ -291,9 +291,16 @@ default :
 printf("Invalid choice");
 }
 }
-`
+```
+**Output**
+```
+1. plus (+) operator
+2. minus (-) operator
+3. multiply (*) operator
+4. modulas (%) operator
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk5NjcwOTUsMTEzMDkwNzEyMyw0MD
+eyJoaXN0b3J5IjpbLTE2ODQ0MjMxMDIsMTEzMDkwNzEyMyw0MD
 YwNzM2MzUsMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3
 NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
 -->
