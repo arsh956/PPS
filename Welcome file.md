@@ -119,9 +119,36 @@ printf("%d*%d=%d\n",i,j,i*j);
 ```
 **Output**
 ```
-
+enter first number: 5                                      enter second number: 6
+5*1=5
+5*2=10
+5*3=15
+5*4=20
+5*5=25
+5*6=30
+5*7=35
+5*8=40
+5*9=45                                                     5*10=50
+6*1=6
+6*2=12
+6*3=18
+6*4=24
+6*5=30
+6*6=36
+6*7=42
+6*8=48                                                     6*9=54
+6*10=60
+```
+## 5.#include<stdio.h>
+int main()
+{
+float f,c;
+printf("enter the temperature in fahrenheit: ");
+scanf("%f",&f);                                            c=((f-32)*5)/9;
+printf("temperature in celcius is %f",c);
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNj
-Q5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUz
-Nl19
+eyJoaXN0b3J5IjpbLTEwMDE5OTYwMjcsMTEyNDI3MTk5NiwtOD
+Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
+NjEyLDg2MDY5MjUzNl19
 -->
