@@ -117,9 +117,11 @@ printf("%d*%d=%d\n",i,j,i*j);
 }                                                          }
 }
 ```
+**Output**
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3NDE1MTEsLTg2NTgzNTAwOSwxMD
-Y0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1
-MzZdfQ==
+eyJoaXN0b3J5IjpbMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNj
+Q5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUz
+Nl19
 -->
