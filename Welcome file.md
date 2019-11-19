@@ -30,7 +30,8 @@ printf("The number is odd");
 Enter a number: 5
 The number is odd
 ```
-## 2.
+## 2. Table
+```
 #include<stdio.h>
 int main()
 {
@@ -40,7 +41,11 @@ scanf("%d",&num);
 for(i=1;i<=20;i++)
 printf("\n%d*%d=%d",num,i,num*i);
 }
+```
+**Output**
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgyMDMzMDIsMTA2NDkzNTc3MCw1Mj
+eyJoaXN0b3J5IjpbLTE3MDczNjU2NjEsMTA2NDkzNTc3MCw1Mj
 k3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
 -->
