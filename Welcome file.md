@@ -154,8 +154,29 @@ printf("temperature in celcius is %f",c);
 ```
 enter the temperature in fahrenheit: 53
 temperature in celcius is 11.666667
+```
+## 6. Star
+```
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter the no:");
+scanf("%d",&n);
+int i,j;
+for( j = 1;j <= n; j++)
+{
+for( i = 1;i <= j; i++)
+{ printf("*");
+}
+printf("\n");
+}
+}
+```
+**Output**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTczNTM2ODcsMTEyNDI3MTk5NiwtOD
-Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
-NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbNzcxMjk5NDM4LDExMjQyNzE5OTYsLTg2NT
+gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
+Miw4NjA2OTI1MzZdfQ==
 -->
