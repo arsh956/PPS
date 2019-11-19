@@ -252,9 +252,23 @@ printf("\n%d",n);                                          return 0;
 Enter the integer:5
 Buzz
 ```
-##
+## 10. Diameter , circumference and Area of circle
+```
+#include<stdio.h>
+int main()
+{
+float a;
+float const pi = 3.14;
+printf("Enter the radius of circle");
+scanf("%f\n",&a);
+printf("diameter of circle is %f\n",2*a);
+printf("circumference of circle is %f\n",2*pi*a);
+printf("area of circle is %f\n",pi*a*a);                   return 0;
+}
+```
+**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTU5ODM4LDExMjQyNzE5OTYsLTg2NT
+eyJoaXN0b3J5IjpbODEwODg4OTk0LDExMjQyNzE5OTYsLTg2NT
 gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
 Miw4NjA2OTI1MzZdfQ==
 -->
