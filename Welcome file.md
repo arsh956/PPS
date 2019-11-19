@@ -253,32 +253,9 @@ Enter the integer:5
 Buzz
 ```
 ##  10 Factorial of a number
-#include  <stdio.h>
- int main()`
-{`
-int n, i;`
-5.  `unsigned  long  long factorial =  1;`
-
-7.  `printf("Enter an integer: ");`
-8.  `scanf("%d",&n);`
-
-10.  `// show error if the user enters a negative integer`
-11.  `if  (n <  0)`
-12.  `printf("Error! Factorial of a negative number doesn't exist.");`
-
-14.  `else`
-15.  `{`
-16.  `for(i=1; i<=n;  ++i)`
-17.  `{`
-18.  `factorial *= i;  // factorial = factorial*i;`
-19.  `}`
-20.  `printf("Factorial of %d = %llu", n, factorial);`
-21.  `}`
-
-23.  `return  0;`
-24.  `}`
+#include  <stdio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDkwNzEyMyw0MDYwNzM2MzUsMTEyND
-I3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAx
-LC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbMTcwMzE4NTAzMywxMTMwOTA3MTIzLDQwNj
+A3MzYzNSwxMTI0MjcxOTk2LC04NjU4MzUwMDksMTA2NDkzNTc3
+MCw1Mjk3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
 -->
