@@ -252,8 +252,8 @@ printf("\n%d",n);                                          return 0;
 Enter the integer:5
 Buzz
 ```
-##  10 
-
+##  10 To print operators and operands of user choice
+```
 #include<stdio.h>
 int main()
 {
@@ -284,8 +284,16 @@ break;
 case 4:
 printf("Enter two numbers: ");
 scanf("%d %d",&a,&b);
+= a % b;
+printf("\nThe modulas of %d and %d is %d",a,b,c);
+break;
+default :
+printf("Invalid choice");
+}
+}
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTExMDc4LDExMzA5MDcxMjMsNDA2MD
-czNjM1LDExMjQyNzE5OTYsLTg2NTgzNTAwOSwxMDY0OTM1Nzcw
-LDUyOTcwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTExNjk5NjcwOTUsMTEzMDkwNzEyMyw0MD
+YwNzM2MzUsMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3
+NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
 -->
