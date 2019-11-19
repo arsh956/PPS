@@ -266,9 +266,11 @@ printf("circumference of circle is %f\n",2*pi*a);
 printf("area of circle is %f\n",pi*a*a);                   return 0;
 }
 ```
-**
+**Output**
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwODg4OTk0LDExMjQyNzE5OTYsLTg2NT
-gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
-Miw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTM3NDMyMywxMTI0MjcxOTk2LC04Nj
+U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
+MTIsODYwNjkyNTM2XX0=
 -->
