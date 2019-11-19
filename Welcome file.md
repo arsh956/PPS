@@ -209,8 +209,12 @@ printf("%d is not a prime number",n);
 ```
 **Output**
 ```
+enter a number11
+11 number is prime
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjc2NTgxMCwxMTI0MjcxOTk2LC04Nj
-U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
-MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbLTExNTA2MDU4LDExMjQyNzE5OTYsLTg2NT
+gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
+Miw4NjA2OTI1MzZdfQ==
 -->
