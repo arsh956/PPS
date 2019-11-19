@@ -32,8 +32,22 @@ The number is odd
 ```
 ## 2.
 ```
-
+#include <stdio.h>                                         int main ()
+{
+char name[50];
+int marks,i,n;
+printf("Enter number of students");
+scanf("%d",&n);
+for(i=0;i<n;++i){
+printf("forstudent%d/nEnter name:",i+1);
+scanf("%s,name");
+printf("Enter marks: ");
+scanf("%d",&marks);
+printf("\nName: %s,\nmarks=%d\nname,marks");               }
+return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTM1MzQ2Miw1Mjk3MDk0MDEsLTIwOD
-g3NDY2MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbMTg5NTEwOTAwLDUyOTcwOTQwMSwtMjA4OD
+c0NjYxMiw4NjA2OTI1MzZdfQ==
 -->
