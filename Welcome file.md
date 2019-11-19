@@ -174,9 +174,17 @@ printf("\n");
 }
 ```
 **Output**
-
+```
+Enter the no:5
+*
+**
+***
+****
+*****
+```
+## 7.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMjk5NDM4LDExMjQyNzE5OTYsLTg2NT
-gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
-Miw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTU5NjYzMjg2MCwxMTI0MjcxOTk2LC04Nj
+U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
+MTIsODYwNjkyNTM2XX0=
 -->
