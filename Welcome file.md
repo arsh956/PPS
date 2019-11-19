@@ -9,15 +9,26 @@
 ### ***Submitted To:- Ms. Ranjodh Kaur***
 
 # My C programs
-## 1. 
+## 1. Odd even
 ```
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter a number: ");
+scanf("%d",&n);                                            if(n % 2 == 0)
+printf("The number is even");
+else
+printf("The number is odd");
+}
 
 
 
-
+```
+**OUTPUT**
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MD
-Y5MjUzNl19
+eyJoaXN0b3J5IjpbNDU5OTk4MDkwLDUyOTcwOTQwMSwtMjA4OD
+c0NjYxMiw4NjA2OTI1MzZdfQ==
 -->
