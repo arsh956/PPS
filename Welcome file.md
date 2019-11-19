@@ -182,7 +182,8 @@ Enter the no:5
 ****
 *****
 ```
-## 7.
+## 7. To check the number is prime or not
+```
 
 #include<stdio.h>
 int main()
@@ -205,8 +206,11 @@ else
 {
 printf("%d is not a prime number",n);
 }
+```
+**Output**
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjI0NTcyNywxMTI0MjcxOTk2LC04Nj
+eyJoaXN0b3J5IjpbMTExMjc2NTgxMCwxMTI0MjcxOTk2LC04Nj
 U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
 MTIsODYwNjkyNTM2XX0=
 -->
