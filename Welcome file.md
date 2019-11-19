@@ -227,9 +227,14 @@ printf("The number is positive");
 }
 ```
 **Output**
+```
+Enter a number: 5
+The number is positive
+```
+## 9.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUyMzU0MzYsMTEyNDI3MTk5NiwtOD
+eyJoaXN0b3J5IjpbLTEwNTM4ODg5NTMsMTEyNDI3MTk5NiwtOD
 Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
 NjEyLDg2MDY5MjUzNl19
 -->
