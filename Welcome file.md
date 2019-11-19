@@ -66,8 +66,25 @@ enter the number: 7
 7*19=133
 7*20=140
 ```
-3
+## 3.#include<stdio.h>
+int main()
+{
+int n,i;
+printf("enter a number");
+scanf("%d",&n);
+if(n % 2 == 0)
+{
+for(i = 0; i <= 10; i++)
+{
+printf("\n%d*%d=%d",n,i,n*i);
+}
+}
+else                                                       {
+printf("the number is not even");
+}
+return 0;
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM5MDU1NzksMTA2NDkzNTc3MCw1Mj
-k3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbLTQzNjgyOTkxNCwxMDY0OTM1NzcwLDUyOT
+cwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
 -->
