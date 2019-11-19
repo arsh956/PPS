@@ -231,10 +231,30 @@ printf("The number is positive");
 Enter a number: 5
 The number is positive
 ```
-## 9.
-
+## 9. Fizzbuzz
+```
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter the integer:");
+scanf("%d",&n);
+if(n%3==0)
+printf("\nFizz");
+if(n%5==0)
+printf("Buzz\n");
+else
+printf("\n%d",n);                                          return 0;
+}
+```
+**Output**
+```
+Enter the integer:5
+Buzz
+```
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTM4ODg5NTMsMTEyNDI3MTk5NiwtOD
-Y1ODM1MDA5LDEwNjQ5MzU3NzAsNTI5NzA5NDAxLC0yMDg4NzQ2
-NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbLTgxNTU5ODM4LDExMjQyNzE5OTYsLTg2NT
+gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
+Miw4NjA2OTI1MzZdfQ==
 -->
