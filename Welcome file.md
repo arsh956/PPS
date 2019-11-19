@@ -66,7 +66,9 @@ enter the number: 7
 7*19=133
 7*20=140
 ```
-## 3.#include<stdio.h>
+## 3. Table of even number
+
+#include<stdio.h>
 int main()
 {
 int n,i;
@@ -85,6 +87,6 @@ printf("the number is not even");
 return 0;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjgyOTkxNCwxMDY0OTM1NzcwLDUyOT
-cwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjcxNTE5OTYsMTA2NDkzNTc3MCw1Mj
+k3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
 -->
