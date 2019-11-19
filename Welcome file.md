@@ -30,10 +30,24 @@ printf("The number is odd");
 Enter a number: 5
 The number is odd
 ```
-## 2.
+## 2.Factorial
 
+#include<stdio.h>
+int main()
+{
+int i,c,n;
+printf("enter a number");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+c=c*i;
+printf("the factorial of %d =%d\n",n,c);
+return 0;
+}
+```
+**Output**
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwOD
-g3NDY2MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbMTk0MTMwMzk5NiwxMDY0OTM1NzcwLDUyOT
+cwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
 -->
