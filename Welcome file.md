@@ -32,7 +32,8 @@ The number is odd
 ```
 ## 2.
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkyMzA3NzYsNTI5NzA5NDAxLC0yMD
-g4NzQ2NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbMTgwNTM1MzQ2Miw1Mjk3MDk0MDEsLTIwOD
+g3NDY2MTIsODYwNjkyNTM2XX0=
 -->
