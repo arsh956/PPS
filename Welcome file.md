@@ -89,8 +89,22 @@ return 0;
 ```
 **Output**
 ```
+enter a number6
 
+6*0=0
+6*1=6
+6*2=12
+6*3=18
+6*4=24
+6*5=30
+6*6=36
+6*7=42
+6*8=48                                                     6*9=54
+6*10=60
+```
+## 4.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTgzNTAwOSwxMDY0OTM1NzcwLDUyOT
-cwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTY0MDIyNzY1LC04NjU4MzUwMDksMTA2ND
+kzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2
+XX0=
 -->
