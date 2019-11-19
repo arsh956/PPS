@@ -27,8 +27,12 @@ printf("The number is odd");
 ```
 **OUTPUT**
 ```
-
+Enter a number: 5
+The number is odd
+```
+## 2.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5OTk4MDkwLDUyOTcwOTQwMSwtMjA4OD
-c0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTEwMTkyMzA3NzYsNTI5NzA5NDAxLC0yMD
+g4NzQ2NjEyLDg2MDY5MjUzNl19
 -->
