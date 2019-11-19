@@ -1,4 +1,3 @@
-![College  Logo](https://www.gndec.ac.in/logo.png)
 # *PPS Assignment*
 ## ***Submitted By :***
 ##### ***Name : Arshmeet***
@@ -300,7 +299,8 @@ printf("Invalid choice");
 4. modulas (%) operator
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ0MjMxMDIsMTEzMDkwNzEyMyw0MD
-YwNzM2MzUsMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3
-NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
+eyJoaXN0b3J5IjpbMzkwMjI2NTQxLC0xNjg0NDIzMTAyLDExMz
+A5MDcxMjMsNDA2MDczNjM1LDExMjQyNzE5OTYsLTg2NTgzNTAw
+OSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYxMiw4Nj
+A2OTI1MzZdfQ==
 -->
