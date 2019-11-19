@@ -7,7 +7,7 @@
 <hr>
 <h2 id="hello-world-program">## 1:Hello world Program</h2>
 <pre><code>
-```
+``
 //To print  hello world
 #include&lt;<stdio.h&gt;>
 int main()
@@ -978,5 +978,5 @@ Enter the value upto pattern is shown:8
 </code></pre>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbLTE2MzI3ODM3ODgsODYwNjkyNTM2XX0=
 -->
