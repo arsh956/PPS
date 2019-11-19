@@ -252,10 +252,30 @@ printf("\n%d",n);                                          return 0;
 Enter the integer:5
 Buzz
 ```
-##  10 Factorial of a number
-#include  <stdio
+##  10 
+
+#include<stdio.h>
+int main()
+{
+int a,b,c,choice;
+printf("\n1. plus (+) operator");
+printf("\n2. minus (-) operator");
+printf("\n3. multiply (*) operator");
+printf("\n4. modulas (%) operator");                       printf("\n\n Enter your choice");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:                                                    printf("Enter two numbers: ");
+scanf("%d %d",&a,&b);
+c = a+b;
+printf("\n The sum is %d",c);
+break;
+case 2:
+printf(" Enter two numbers: ");
+scanf("%d %d",&a,&b);
+c = a-b;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzE4NTAzMywxMTMwOTA3MTIzLDQwNj
-A3MzYzNSwxMTI0MjcxOTk2LC04NjU4MzUwMDksMTA2NDkzNTc3
-MCw1Mjk3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
+eyJoaXN0b3J5IjpbLTE4NDA0NjA3OTUsMTEzMDkwNzEyMyw0MD
+YwNzM2MzUsMTEyNDI3MTk5NiwtODY1ODM1MDA5LDEwNjQ5MzU3
+NzAsNTI5NzA5NDAxLC0yMDg4NzQ2NjEyLDg2MDY5MjUzNl19
 -->
