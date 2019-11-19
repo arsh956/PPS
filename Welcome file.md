@@ -102,9 +102,24 @@ enter a number6
 6*8=48                                                     6*9=54
 6*10=60
 ```
-## 4.
+## 4. To print the table between range
+```
+#include<stdio.h>                                          int main()                                                 {                                                          int n1,n2,i,j;
+printf("enter first number: "),
+scanf("%d",&n1);
+printf("enter second number: ");
+scanf("%d",&n2);
+for(i=n1;i<=n2;i++)
+{
+for(j=1;j<=10;j++)
+{
+printf("%d*%d=%d\n",i,j,i*j);
+}                                                          }
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDIyNzY1LC04NjU4MzUwMDksMTA2ND
-kzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2
-XX0=
+eyJoaXN0b3J5IjpbLTEwNDU3NDE1MTEsLTg2NTgzNTAwOSwxMD
+Y0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1
+MzZdfQ==
 -->
