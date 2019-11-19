@@ -183,8 +183,30 @@ Enter the no:5
 *****
 ```
 ## 7.
+
+#include<stdio.h>
+int main()
+{
+int i,n,remainder = 1;
+printf("enter a number");
+scanf("%d",&n);
+for(i = 2; i <= n/2; i++)
+{
+if(n % i == 0)                                             {
+remainder = 0;
+break;
+}
+}
+if(remainder == 1)
+{
+printf("%d number is prime",n);
+}
+else
+{
+printf("%d is not a prime number",n);
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjYzMjg2MCwxMTI0MjcxOTk2LC04Nj
+eyJoaXN0b3J5IjpbMTA3NjI0NTcyNywxMTI0MjcxOTk2LC04Nj
 U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
 MTIsODYwNjkyNTM2XX0=
 -->
