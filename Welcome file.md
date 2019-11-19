@@ -31,7 +31,7 @@ Enter a number: 5
 The number is odd
 ```
 ## 2.Factorial
-
+```
 #include<stdio.h>
 int main()
 {
@@ -48,6 +48,6 @@ return 0;
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTMwMzk5NiwxMDY0OTM1NzcwLDUyOT
-cwOTQwMSwtMjA4ODc0NjYxMiw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4NDYzNzQ3NjYsMTA2NDkzNTc3MCw1Mj
+k3MDk0MDEsLTIwODg3NDY2MTIsODYwNjkyNTM2XX0=
 -->
