@@ -155,7 +155,7 @@ printf("temperature in celcius is %f",c);
 enter the temperature in fahrenheit: 53
 temperature in celcius is 11.666667
 ```
-## 6. Star
+## 6. Star pattern
 ```
 #include<stdio.h>
 int main()
@@ -212,9 +212,10 @@ printf("%d is not a prime number",n);
 enter a number11
 11 number is prime
 ```
+## 8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA2MDU4LDExMjQyNzE5OTYsLTg2NT
-gzNTAwOSwxMDY0OTM1NzcwLDUyOTcwOTQwMSwtMjA4ODc0NjYx
-Miw4NjA2OTI1MzZdfQ==
+eyJoaXN0b3J5IjpbMTE0OTI3ODA1NCwxMTI0MjcxOTk2LC04Nj
+U4MzUwMDksMTA2NDkzNTc3MCw1Mjk3MDk0MDEsLTIwODg3NDY2
+MTIsODYwNjkyNTM2XX0=
 -->
