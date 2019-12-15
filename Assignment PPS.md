@@ -390,5 +390,80 @@ c = a+b;
 return c;
 }
 ```
- 
+**Output**
+```
+Enter a number45 56
+sum is 101
+```
+## 14.Program using function with argument and with return value
+```
+#include<stdio.h>
+int add(int,int);
+int main()
+{
+int s,x,y;
+printf("Enter a number");
+scanf("%d %d",&x,&y);
+s = add(x,y);
+printf("sum is %d",s);
+return 0;
+}
+int add(int a,int b)
+{
+int c;
+c = a+b;
+return c;
+}
+```
+**output**
+```
+enter two numbers32 67
+sum is 99
+```
+## 15.Program to find largest number.
+```
+#include<stdio.h>
+int main()
+{
+int a,b,c,big;
+printf("Enter three numbers: ");
+scanf("%d %d %d",&a,&b,&c);
+if(a>b)
+if(a>c)
+big=a;
+else big=c;
+else if(b>c)
+big=b;
+else big=c;
+printf("Largest of %d %d %d = %d",a,b,c,big);
+}
+```
+**output**
+```
+Enter three numbers: 34 23 45
+Largest of 34 23 45 = 45
+```
+## 16.Program to find diameter,area,circumference of circle.
+```
+#include<stdio.h>
+int main()
+{
+float a;
+float const pi = 3.14;
+printf("Enter the radius of circle");
+scanf("%f",&a);
+printf("diameter of circle is %f\n",2*a);
+printf("circumference of circle is %f\n",2*pi*a);
+printf("area of circle is %f\n",pi*a*a);
+return 0;
+}
+```
+ **Output**
+ ```
+ Enter the radius of circle:2
+diameter of circle is 4.000000
+circumference of circle is 12.560000
+area of circle is 12.560000
+```
+
 
