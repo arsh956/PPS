@@ -31,7 +31,7 @@ Enter a number: 5
 The number is odd
 ```
 ## 2. Table
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -67,7 +67,7 @@ enter the number: 7
 7*20=140
 ```
 ## 3. Table of even number
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -103,7 +103,7 @@ enter a number6
 6*10=60
 ```
 ## 4. To print the table between range
-```
+```C
 #include<stdio.h>                                          int main()                                                 {                                                          int n1,n2,i,j;
 printf("enter first number: "),
 scanf("%d",&n1);
@@ -140,7 +140,7 @@ enter first number: 5                                      enter second number: 
 6*10=60
 ```
 ## 5. To convert temperature from Fahrenheit to celcius
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -156,7 +156,7 @@ enter the temperature in fahrenheit: 53
 temperature in celcius is 11.666667
 ```
 ## 6. Star pattern
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -183,7 +183,7 @@ Enter the no:5
 *****
 ```
 ## 7. To check the number is prime or not
-```
+```C
 
 #include<stdio.h>
 int main()
@@ -213,7 +213,7 @@ enter a number11
 11 number is prime
 ```
 ## 8. Number is negative or positive
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -232,7 +232,7 @@ Enter a number: 5
 The number is positive
 ```
 ## 9. Fizzbuzz
-```
+```C
 #include<stdio.h>
 int main()
 {
@@ -253,7 +253,7 @@ Enter the integer:5
 Buzz
 ```
 ##  10 To print operators and operands of user choice
-```
+```C
 #include<stdio.h>
 int main()
 {
