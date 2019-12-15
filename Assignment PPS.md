@@ -10,7 +10,7 @@
 ### ***Submitted To:- Ms. Ranjodh Kaur***
 
 # My C programs
-## 1. Odd even
+## 1. To check whether Number is odd or even.
 ```C
 #include<stdio.h>
 int main()
@@ -32,7 +32,7 @@ printf("The number is odd");
 Enter a number: 5
 The number is odd
 ```
-## 2. Table
+## 2. Program to display table of user choice.
 ```C
 #include<stdio.h>
 int main()
@@ -68,7 +68,7 @@ enter the number: 7
 7*19=133
 7*20=140
 ```
-## 3. Table of even number
+## 3. Table of even number.
 ```C
 #include<stdio.h>
 int main()
@@ -104,7 +104,7 @@ enter a number6
 6*8=48                                                     6*9=54
 6*10=60
 ```
-## 4. To print the table between range
+## 4. To display the table between range.
 ```C
 #include<stdio.h>                                          int main()                                                 {                                                          int n1,n2,i,j;
 printf("enter first number: "),
@@ -141,7 +141,7 @@ enter first number: 5                                      enter second number: 
 6*8=48                                                     6*9=54
 6*10=60
 ```
-## 5. To convert temperature from Fahrenheit to celcius
+## 5. To convert temperature from Fahrenheit to celcius.
 ```C
 #include<stdio.h>
 int main()
@@ -184,7 +184,7 @@ Enter the no:5
 ****
 *****
 ```
-## 7. To check the number is prime or not
+## 7. To check the number is prime or not.
 ```C
 
 #include<stdio.h>
@@ -214,7 +214,7 @@ printf("%d is not a prime number",n);
 enter a number11
 11 number is prime
 ```
-## 8. Number is negative or positive
+## 8. To check whether number is negative or positive.
 ```C
 #include<stdio.h>
 int main()
@@ -254,7 +254,7 @@ printf("\n%d",n);                                          return 0;
 Enter the integer:5
 Buzz
 ```
-##  10 To print operators and operands of user choice
+##  10 Program using switch case.
 ```C
 #include<stdio.h>
 int main()
@@ -460,10 +460,194 @@ return 0;
 ```
  **Output**
  ```
- Enter the radius of circle:2
-diameter of circle is 4.000000
-circumference of circle is 12.560000
-area of circle is 12.560000
+ Enter the radius of circle:5
+diameter of circle is 10.000000
+circumference of circle is 31.400002
+area of circle is 78.500000
 ```
+## 17.Program to find matrix using array.
+```
+
+#include<stdio.h>
+int main()
+{
+int a[3][3],b[3][3],c[3][3],i,j;
+printf("enter 9 numbers of first array");
+for(i=0;i<=2;i++)
+for(j=0;j<=2;j++)
+scanf("%d",&a[i][j]);
+printf("enter 9 numbers of second array");
+for(i=0;i<=2;i++)
+for(j=0;j<=2;j++)
+scanf("%d",&b[i][j]);
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=2;j++)
+{
+c[i][j]=a[i][j]+b[i][j];
+printf("%d",c[i][j]);
+}
+printf("\n");
+}
+return 0;
+}
+```
+**Output**
+```
+enter 9 numbers of first array2
+1
+0
+3
+2
+4
+5
+2
+0
+enter 9 numbers of second array2
+4
+7
+1
+4
+2
+1
+0
+2
+457
+466
+622
+```
+## 18.Program to find factorial of number.
+```
+#include<stdio.h>
+int main()
+{
+int i,n,c=1;
+printf("enter a number");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+c=c*i;
+printf("the factorial of %d =%d\n",n,c);
+return 0;
+}
+```
+**Output**
+```
+enter a number6
+the factorial of 6 =720
+```
+## 19.Program to find factorial of number using recursion.
+```
+#include<stdio.h>
+int fact();
+int main()
+{
+int i,x;
+printf("enter a number:");
+scanf("%d",&x);
+i = fact(x);
+printf("factorial is %d\n",i);
+return 0;
+}
+int fact(int a)
+{
+int s;
+if(a==1)
+return(a);
+s = a * fact(a-1);
+return(s);
+}
+
+
+```
+**Output**
+```
+enter a number:7
+factorial is 5040
+```
+## 20.Program to find sum of n natural numbers using recursion.
+```
+
+#include<stdio.h>
+int sum();
+int main()
+{
+int i,x;
+printf("enter a natural number");
+scanf("%d",&x);
+i = sum(x);
+printf("sum of %d natural numbers is %d\n",x,i);
+return 0;
+}
+int sum(int a)
+{
+int s;
+if(a==1)
+return(a);
+else
+s = a+sum(a-1);
+return(s);
+}
+```
+**Output**
+```
+enter a natural number10
+sum of 10 natural numbers is 55
+```
+## 21.Program to print n odd numbers of user choice and to find their sum.
+```
+#include<stdio.h>
+int main()
+{
+int i,n,sum=0;
+printf("enter a number ");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+if(i % 2 != 0)
+{
+printf("%d\n",i);
+sum = sum + i;
+}
+}
+printf("sum of odd natural numbers between 1 and 100 is %d",sum);
+return 0;
+}
+```
+**Output**
+```
+enter a number 50
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+27
+29
+31
+33
+35
+37
+39
+41
+43
+45
+47
+49
+sum of odd natural numbers between 1 and 100 is 625
+```
+
+
+
+
+
+
 
 
