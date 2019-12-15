@@ -301,6 +301,94 @@ printf("Invalid choice");
 3. multiply (*) operator
 4. modulas (%) operator
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMjI2NTQxXX0=
--->
+## 11.Program using function with no argument and no return value.
+```
+#include<stdio.h>
+int evenodd();
+int add();
+int thanks();
+int main()
+{
+add();
+evenodd();
+thanks();
+}
+int evenodd()
+{
+int x;
+printf("enter a number");
+scanf("%d",&x);
+if(x % 2 == 0)
+printf("The number is even\n");
+else
+printf("The number is odd\n");
+return 0;
+}
+int add()
+{
+int a,b,c;
+printf("\nenter two numbers");
+scanf("%d %d",&a,&b);
+c = a+b;
+printf(" sum is %d\n",c);
+return 0;
+}
+int thanks()
+{
+printf("\nTHANKS\n");
+return 0;
+}
+```
+**output**
+```
+enter two numbers4 5
+ sum is 9
+enter a number91
+The number is odd
+
+THANKS
+```
+## 12. Program using Function with argument and no return value.
+```
+#include<stdio.h>
+void add(int,int);
+void main()
+{
+int x,y;
+printf("enter two numbers");
+scanf("%d %d",&x,&y);
+add(x,y);
+}
+void add(int a, int b)
+{
+int c;
+c= a+b;
+printf(" sum is %d",c);
+}
+```
+**Output**
+```
+enter two numbers45 56
+ sum is 101
+ ```
+ ## 13.Program using function with no argument and return value
+ ```
+ #include<stdio.h>
+int add();
+int main()
+{
+int s;
+s = add();
+printf("sum is %d",s);
+}
+int add()
+{
+int a,b,c;
+printf("enter two numbers");
+scanf("%d %d",&a,&b);
+c = a+b;
+return c;
+}
+```
+ 
+
