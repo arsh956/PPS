@@ -9,7 +9,7 @@
 
 # My C programs
 ## 1. Odd even
-```
+```C
 #include<stdio.h>
 int main()
 {
