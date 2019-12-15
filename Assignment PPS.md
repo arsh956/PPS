@@ -50,7 +50,8 @@ enter the number: 7
 
 7*1=7
 7*2=14
-7*3=21                                                     7*4=28
+7*3=21                                                    
+7*4=28
 7*5=35
 7*6=42
 7*7=49
@@ -83,7 +84,8 @@ for(i = 0; i <= 10; i++)
 printf("\n%d*%d=%d",n,i,n*i);
 }
 }
-else                                                       {
+else                                                      
+{
 printf("the number is not even");
 }
 return 0;
@@ -101,12 +103,16 @@ enter a number6
 6*5=30
 6*6=36
 6*7=42
-6*8=48                                                     6*9=54
+6*8=48                                                    
+6*9=54
 6*10=60
 ```
 ## 4. To display the table between range.
 ```C
-#include<stdio.h>                                          int main()                                                 {                                                          int n1,n2,i,j;
+#include<stdio.h>                                          
+int main()                                                
+{                                                          
+int n1,n2,i,j;
 printf("enter first number: "),
 scanf("%d",&n1);
 printf("enter second number: ");
@@ -116,12 +122,14 @@ for(i=n1;i<=n2;i++)
 for(j=1;j<=10;j++)
 {
 printf("%d*%d=%d\n",i,j,i*j);
-}                                                          }
+}                                                          
+}
 }
 ```
 **Output**
 ```
-enter first number: 5                                      enter second number: 6
+enter first number: 5                                     
+enter second number: 6
 5*1=5
 5*2=10
 5*3=15
@@ -130,7 +138,8 @@ enter first number: 5                                      enter second number: 
 5*6=30
 5*7=35
 5*8=40
-5*9=45                                                     5*10=50
+5*9=45                                                     
+5*10=50
 6*1=6
 6*2=12
 6*3=18
@@ -138,7 +147,8 @@ enter first number: 5                                      enter second number: 
 6*5=30
 6*6=36
 6*7=42
-6*8=48                                                     6*9=54
+6*8=48                                                     
+6*9=54
 6*10=60
 ```
 ## 5. To convert temperature from Fahrenheit to celcius.
@@ -148,7 +158,8 @@ int main()
 {
 float f,c;
 printf("enter the temperature in fahrenheit: ");
-scanf("%f",&f);                                            c=((f-32)*5)/9;
+scanf("%f",&f);                                           
+c=((f-32)*5)/9;
 printf("temperature in celcius is %f",c);
 }
 ```
@@ -195,7 +206,8 @@ printf("enter a number");
 scanf("%d",&n);
 for(i = 2; i <= n/2; i++)
 {
-if(n % i == 0)                                             {
+if(n % i == 0)                                             
+{
 remainder = 0;
 break;
 }
@@ -246,7 +258,8 @@ printf("\nFizz");
 if(n%5==0)
 printf("Buzz\n");
 else
-printf("\n%d",n);                                          return 0;
+printf("\n%d",n);                                          
+return 0;
 }
 ```
 **Output**
@@ -263,11 +276,15 @@ int a,b,c,choice;
 printf("\n1. plus (+) operator");
 printf("\n2. minus (-) operator");
 printf("\n3. multiply (*) operator");
-printf("\n4. modulas (%) operator");                       printf("\n\n Enter your choice");
+printf("\n4. modulas (%) operator");                      
+printf("\n\n Enter your choice");
 scanf("%d",&choice);
 switch(choice)
 {
-case 1:                                                    printf("Enter two numbers: ");
+case 1:                                                    
+
+
+printf("Enter two numbers: ");
 scanf("%d %d",&a,&b);
 c = a+b;
 printf("\n The sum is %d",c);
@@ -276,7 +293,8 @@ case 2:
 printf(" Enter two numbers: ");
 scanf("%d %d",&a,&b);
 c = a-b;
-printf(" \nThe subtraction of %d and %d is %d",a,b,c);     break;
+printf(" \nThe subtraction of %d and %d is %d",a,b,c);    
+break;
 case 3:
 printf("Enter two numbers: ");
 scanf("%d %d",&a,&b);
