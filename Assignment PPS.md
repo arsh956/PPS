@@ -1,7 +1,7 @@
 ![](https://ce.gndec.ac.in/sites/default/files/logo.jpg)
 # *PPS Assignment*
 ## ***Submitted By :***
-##### ***Name : Arshmeet***
+##### ***Name : Arshmeet Kaur***
 ##### ***Roll no. : 1921014***
 ##### ***University Rollno : 1905310***
 ##### ***Branch : Information technology (I.T.)***
